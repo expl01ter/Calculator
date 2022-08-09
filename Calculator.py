@@ -3,7 +3,7 @@ import time
 from pyfiglet import Figlet
 from colorama import *
 
-def Calculator_V1():
+def Calculator_V2():
 
 	def pc():
 		os.system('pause')
@@ -43,4 +43,4 @@ def Calculator_V1():
 		os.system('clear')
 		exit()
 
-Calculator_V1()
+Calculator_V2()
