@@ -16,7 +16,9 @@ if os.name == 'nt':
 		print(" ")
 		print(" 1. Сложение")
 		print(" 2. Вычитания")
-		a=input("Выбирите сложение или вычитания (пример: 1): ")
+		print(" 3. Умножение")
+		print(" 4. Деление")
+		a=input("Выберите (выбор только цифрами): ")
 		x=int(input("Введите первое число: "))
 		y=int(input("Введите второе число: "))
 		if a=='1':
@@ -33,6 +35,19 @@ if os.name == 'nt':
 			print(x - y)
 			print(Style.RESET_ALL)
 			pc()
+		if a=='3':
+			print(" ")
+			print("Результаты:")
+			print(Fore.GREEN)
+			print(x * y)
+			print(Style.RESET_ALL)
+			pc()
+		if a=='4':
+			print(" ")
+			print("Результаты:")
+			print(Fore.GREEN)
+			print(x / y)
+			print(Style.RESET_ALL)
 
 
 else:
